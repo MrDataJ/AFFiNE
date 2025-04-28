@@ -11,6 +11,7 @@
     "build": "affine bundle -p @affine/server",
     "dev": "nodemon ./src/index.ts",
     "dev:mail": "email dev -d src/mails",
+    "start": "node ./dist/main.js",
     "test": "ava --concurrency 1 --serial",
     "test:copilot": "ava \"src/__tests__/copilot-*.spec.ts\"",
     "test:coverage": "c8 ava --concurrency 1 --serial",
