@@ -6,7 +6,8 @@
   "browser": "src/index.tsx",
   "scripts": {
     "build": "affine bundle",
-    "dev": "affine bundle --dev"
+    "dev": "affine bundle --dev",
+    "start": "node server.js"
   },
   "dependencies": {
     "@affine/component": "workspace:*",
