@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["yarn"]
+
+[phases.build]
+cmds = ["yarn install --immutable && yarn build"]
+
+[phases.start]
+cmds = ["yarn start"]
